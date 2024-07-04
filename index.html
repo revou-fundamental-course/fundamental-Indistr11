@@ -3,9 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portofolio Indi</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <hr />
+    <!--ini Header Nav-->
+<header class="nav-container">
+    <div class="logo-icon"></div>
+<nav>
+<a href="#feature-home">Home</a>
+<a href="#projects">Projects</a>
+<a href="#message-us">Message Us</a>
+</nav>
+
+</header> 
+<hr />
+
+<main>
+<!--Ini Home Content-->
+<section id="feature-home">
+    <header class="title-color">
+        <h1>Hi <span id="name"> User</span> Welcome to My Website</h1>
+    </header>
+    <button id="tombol">Enter Your Name Here</button>
+    <script src="js/script.js"></script>
+    <article>
+        <p class="content-home">Hi, I'm Indi and this is my portfolio. I am a sixth semester student majoring in informatics engineering at 
+            Asahan University. I have an interest in web development, quality assurance, data analysis,
+            and databases. Recently I am very interested in Artificial Intelligence (AI).</p>
+    </article>
+    <article>
+        <div class="banner-container">
+            <div class="banner-item"></div>
+        </div>
+    </article>
+</section>
+<hr />
+
+<!--Ini Project Content-->
+<section id="projects">
+    <header class="style-project">
+        <h1>Project</h1>
+    </header>
+
+    <article class="project-content">
+        <div class="project-item">
+            <div class="project-image project-1"></div>
+            <h2>Project 1</h2>
+            <p>Designed and developed a temperature and humidity detection</p>
+            <p>device using the Arduino Uno microcontroller platform </p>
+        </div>
+
+        <div class="project-item">
+            <div class="project-image project-2"></div>
+            <h2>Project 2</h2>
+            <p>Developed a simple car rental application using Java programming</p> 
+               <p>language and the Netbeans Integrated Development Environment (IDE)</p>
+        </div>
+
+        <div class="project-item">
+            <div class="project-image project-3"></div>
+            <h2>Project 3</h2>
+            <p>Designed  a Database Solution for Higher Education / University</p>
+        </div>
+
+        <div class="divider"></div>
+    </article>
+</section>
+
+
+<!--Ini Message Us Content-->
+<section id="message-us">
+    <div class="container">
+        <h2>Message Us</h2>
+        <form id="messageForm">
+          <label for="nama">Nama:</label>
+          <input type="text" id="nama" name="nama" required>
     
+          <label for="tanggalLahir">Tanggal Lahir:</label>
+          <input type="date" id="tanggalLahir" name="tanggalLahir" required>
+    
+          <label for="jenisKelamin">Jenis Kelamin:</label>
+          <input type="radio" id="laki-laki" name="jenisKelamin" value="Laki-Laki" required>
+          <label for="laki-laki">Laki-Laki</label>
+          <input type="radio" id="perempuan" name="jenisKelamin" value="Perempuan" required>
+          <label for="perempuan">Perempuan</label>
+    
+          <label for="pesan">Pesan:</label>
+          <textarea id="pesan" name="pesan" required></textarea>
+    
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    
+      <div class="container result-container">
+        <h2>Result</h2>
+        <div id="result"></div>
+      </div>
+
+</section>
+
+</main>
+
+
 </body>
 </html>

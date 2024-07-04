@@ -1,1 +1,115 @@
 /*ini css*/
+main{
+    padding: 32px;
+    background-image: url(../assets/bg.png);
+}
+
+/*style navigation*/
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../assets/background-header.jpg);
+
+}
+
+/*style logo icon navigation*/
+.logo-icon {
+    height: 50px;
+    width: 50px;
+
+    /*for image icon*/
+    background-image: url(../assets/PicsArt_11-25-09.46.03.png);
+    background-size: cover;
+    border-radius: 100%;
+}
+
+/*color style title header home content*/
+.title-color {
+
+    font-family: cursive;
+    color: rgb(24, 4, 97);
+    font-size: x-large;
+
+}
+
+/*size font article home content*/
+.content-home {
+    font-size: large;
+}
+
+/*navigasi border*/
+nav>a{
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 2px, solid;
+    color: antiquewhite;
+}
+
+/*garis pembatas*/
+hr{
+    border: 1px, solid;
+}
+
+/*banner container*/
+.banner-container{
+    height: 350px;
+    width: 100%;
+    border: 1px, solid;
+    background-image: url(..//assets/slide1.png);
+}
+
+/*project title style*/
+.style-project{
+    font-family: cursive;
+    font-size: x-large;
+    color: rgb(24, 4, 97);
+}
+
+
+
+/*project content*/
+.project-content{
+    display: block;
+}
+
+
+.project-item{
+    align-content: center;
+    flex: 1;
+    text-align: -webkit-center;
+}
+
+/*gambar-gambar project*/
+.project-image {
+    height: 50px;
+    width: 50px;
+    border: 1px, solid;
+    
+
+    /*for image icon*/
+    background-size: cover;
+    border-radius: 100%;
+}
+
+/*divider*/
+.divider{
+    flex: 2;
+}
+
+/*gambar project 1*/
+.project-1{
+    background-image: url(..//assets/real\ rangkaian.jpg);
+}
+
+/*gambar project 2*/
+.project-2{
+    background-image: url(../assets/Screenshot\ 2024-06-05\ 145313.png);
+}
+
+
+/*gambar project 3*/
+.project-3{
+    background-image: url(../assets/project3.jpeg);
+}
+
